@@ -1,4 +1,35 @@
 ﻿# cinema-app
+ 
+ ## Features
+Authentication by User
+Role User :
+- Display all movies | Display all cinema halls | Display avaliable movie sessions | Display all orders | Display user shopping cart 
+- Add to user shopping cart movie | Complete order
+
+Role Admin : 
+
+- Display all movies | Display all cinema halls | Display avaliable movie sessions | Display user by email
+- create new movie | create new cinema hall | create movie session
+- change movie session details
+
+
+## :rocket:	Involved Technologies::rocket:	
+
+Java 8
+
+Spring
+
+Spring security
+
+Hibernate
+
+MySql
+
+jdbc
+
+Tomcat
+
+
 ## :wrench:	 How to setup :wrench:	
 
 ### For connection to database
