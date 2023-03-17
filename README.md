@@ -1,4 +1,14 @@
 ﻿# cinema-app
+ my second pet project based on java 
+ 
+ in this application i used spring framework that help me to develop controllers which can recieve post/put/delete requests 
+ 
+ spring security for create authentication with supports several roles 
+ 
+ The project follows the MVC architecture pattern, SOLID principle, exception handling.
+
+The code is well-organized, making it easy to understand and modify
+
  
  ## Features
 Authentication by User
