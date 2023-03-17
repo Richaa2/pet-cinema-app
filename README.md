@@ -67,7 +67,7 @@ if you want to feel like ADMIN you can login -
 
 ##### Admin role avaliable this url:
 
-- get request - "/cinema-halls", "/movies", "/movie-sessions/available", "/users/by-email?email=YOUR_EMAIL"
+- get request - "/cinema-halls/", "/movies/", "/movie-sessions/available", "/users/by-email?email=YOUR_EMAIL"
 
 - post request - "/cinema-halls", "/movies", "/movie-sessions"
 
