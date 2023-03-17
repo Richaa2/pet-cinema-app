@@ -1,4 +1,35 @@
 ﻿# cinema-app
+ 
+ ## Features
+Authentication by User
+Role User :
+- Display all movies | Display all cinema halls | Display avaliable movie sessions | Display all orders | Display user shopping cart 
+- Add to user shopping cart movie | Complete order
+
+Role Admin : 
+
+- Display all movies | Display all cinema halls | Display avaliable movie sessions | Display user by email
+- create new movie | create new cinema hall | create movie session
+- change movie session details
+
+
+## :rocket:	Involved Technologies::rocket:	
+
+Java 8
+
+Spring
+
+Spring security
+
+Hibernate
+
+MySql
+
+jdbc
+
+Tomcat
+
+
 ## :wrench:	 How to setup :wrench:	
 
 ### For connection to database
@@ -47,7 +78,7 @@ for register user, Postman help you with that
 
 send post request, body in json format, to "/register" url 
 
-<img src="https://i.postimg.cc/sXVQtwJ0/register.png" width = "400" >
+<img src="https://i.postimg.cc/R0ZPgwD1/register-user.png" width = "400" >
 
 example {"email":"YOUR_EMAIL","password":"YOUR_PASSWORD"} <br/><br/>
 
@@ -57,9 +88,15 @@ for login you can use login form: - send request to "/login" <br/><br/>
 
 - get request - "/cinema-halls", "/movies", "/movie-sessions/available" "/orders", "/shopping-carts/by-user"
 
-- post request - "/shopping-carts", "/orders/complete"
+<img src="https://i.postimg.cc/FKMjfyN9/user-get.png" width = "400" >
+
+- post request - "/orders/complete"
+
+<img src="https://i.postimg.cc/NFdhffmw/user-post.png" width = "200" >
 
 - put request - "/shopping-carts/movie-sessions"
+
+<img src="https://i.postimg.cc/MTstncPt/user-put.png" width = "400" >
 
 if you want to feel like ADMIN you can login - 
 
@@ -75,7 +112,7 @@ if you want to feel like ADMIN you can login -
 
 - post request - "/cinema-halls", "/movies", "/movie-sessions"
 
-<img src="https://i.postimg.cc/VLzGK8Mj/Screenshot-4.png" width = "800" >
+<img src="https://i.postimg.cc/6qvnHQKf/admin-post.png" width = "800" >
 
 - put request - "/movie-sessions/YOUR_ID" (body = "movieId", "cinemaHallId", "showTime")
 
