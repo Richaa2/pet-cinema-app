@@ -47,6 +47,8 @@ for register user, Postman help you with that
 
 send post request, body in json format, to "/register" url 
 
+<img src="https://i.postimg.cc/sXVQtwJ0/register.png" width = "400" >
+
 example {"email":"YOUR_EMAIL","password":"YOUR_PASSWORD"} <br/><br/>
 
 for login you can use login form: - send request to "/login" <br/><br/>
@@ -69,8 +71,16 @@ if you want to feel like ADMIN you can login -
 
 - get request - "/cinema-halls/", "/movies/", "/movie-sessions/available", "/users/by-email?email=YOUR_EMAIL"
 
+<img src="https://i.postimg.cc/bvGpdbwN/admin-get.png" width = "500" >
+
 - post request - "/cinema-halls", "/movies", "/movie-sessions"
+
+<img src="https://i.postimg.cc/VLzGK8Mj/Screenshot-4.png" width = "800" >
 
 - put request - "/movie-sessions/YOUR_ID" (body = "movieId", "cinemaHallId", "showTime")
 
+<img src="https://i.postimg.cc/nzyvNvCs/admin-put.png" width = "500" >
+
 - delete request - "/movie-sessions/YOUR_ID"
+
+<img src="https://i.postimg.cc/fRdhNs2J/admin-delete.png" width = "200" >
