@@ -1,5 +1,7 @@
 ﻿# cinema-app
- my second pet project based on java 
+ My second java pet project
+ 
+ it`s simple example of movie application
  
  in this application i used spring framework that help me to develop controllers which can recieve post/put/delete requests 
  
