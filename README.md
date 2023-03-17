@@ -45,10 +45,32 @@ for get complitely experience you need to you "Postman" or alternative utils for
 
 for register user, Postman help you with that 
 
-send post request json format email and password to "/register" controller 
+send post request, body in json format, to "/register" url 
 
 example {"email":"YOUR_EMAIL","password":"YOUR_PASSWORD"} <br/><br/>
 
 for login you can use login form: - send request to "/login" <br/><br/>
 
-after authentication
+##### after authentication you can use this url:
+
+- get request - "/cinema-halls", "/movies", "/movie-sessions/available" "/orders", "/shopping-carts/by-user"
+
+- post request - "/shopping-carts", "/orders/complete"
+
+- put request - "/shopping-carts/movie-sessions"
+
+if you want to feel like ADMIN you can login - 
+
+"login": "admin@i.ua"
+
+"password": "admin123"
+
+##### Admin role avaliable this url:
+
+- get request - "/cinema-halls", "/movies", "/movie-sessions/available", "/users/by-email?email=YOUR_EMAIL"
+
+- post request - "/cinema-halls", "/movies", "/movie-sessions"
+
+- put request - "/movie-sessions/YOUR_ID" (body = "movieId", "cinemaHallId", "showTime")
+
+- delete request - "/movie-sessions/YOUR_ID"
