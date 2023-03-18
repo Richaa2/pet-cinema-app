@@ -82,7 +82,7 @@ db.password=YOUR_PASSWORD <br/><br/>
 
 9. select in Configuration Tomcat and run <br/><br/>
 
-#### Use guide
+### :blue_book: Use guide :blue_book:
 
 for get complitely experience you need to you "Postman" or alternative utils for send post request
 
