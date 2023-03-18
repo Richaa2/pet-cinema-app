@@ -27,7 +27,7 @@ Role Admin :
 
 ## :rocket:	Involved Technologies::rocket:	
 
-Java 8
+Java
 
 Spring
 
