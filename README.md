@@ -84,7 +84,9 @@ db.password=YOUR_PASSWORD <br/><br/>
 
 ### :blue_book: Use guide :blue_book:
 
-for get complitely experience you need to you "Postman" or alternative utils for send post request
+To get a complete experience of using the app
+
+you need to you "Postman" or alternative utils for send post request
 
 for register user, Postman help you with that 
 
