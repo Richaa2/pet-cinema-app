@@ -35,9 +35,9 @@ Spring security
 
 Hibernate
 
-MySql
+MySQL
 
-jdbc
+JDBC
 
 Tomcat
 
